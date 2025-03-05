@@ -5,11 +5,24 @@ Este projeto é parte do desafio #7DaysOfCode, onde desenvolvo uma interface web
 
 [Link para o protótipo do Figma](https://www.figma.com/design/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0-9878&t=aqC3btONbioWH0dh-0)
 
-## Dia 1: Navbar
+---
+## 🛠 Desenvolvimento  
 
-No primeiro dia, foi construída a barra de navegação (navbar) com a logo e botões utilizando HTML e CSS, seguindo o design proposto no Figma.
+### 🚀 **Dias concluídos**  
+
+- **📌 Dia 1:** Implementação da **navbar**, contendo logo, links de navegação e botões de login/cadastro.  
+- **📌 Dia 2:** Criação da seção **"Sobre Nós"**, apresentando a empresa e sua missão.  
+- **📌 Dia 3:** Adição da seção de **estatísticas da empresa**, destacando números de projetos, equipe, downloads e avaliações.  
+
+### 🖼 **Capturas de tela**
 
 <img src="https://github.com/user-attachments/assets/bc1ef8d1-b006-45f2-805a-3a1d0d8fd4b3" width="500">
+
+<img src="https://github.com/user-attachments/assets/36848852-dacc-44fa-aa5d-c29e89c684f3" width="500">
+
+
+
+
 
 ## Tecnologias Utilizadas
 
