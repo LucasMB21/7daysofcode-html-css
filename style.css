@@ -99,6 +99,39 @@ body {
     color: var(--cor-cinza-botão);
 }
 
+.metricas__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 112px;
+    gap: 32px;
+}
+
+.metricas__container__informacoes {
+    flex: 1;
+    text-align: left;
+    max-width: 285px;
+}
+
+.metricas__container__informacoes-numeros {
+    color: var(--cor-vermelha);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.metricas__container__informacoes-subtitulo {
+    color: var(--cor-preta-texto);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.metricas__container__informacoes-conteudo {
+    color: var(--cor-cinza-botão);
+    font-weight: 400;
+    font-size: 16px;
+}
+
 @media (max-width: 768px) {
     .container-navbar {
         padding: 20px 20px;
@@ -129,5 +162,29 @@ body {
     .cabecalho__conteudo__paragrafo {
         font-size: 18px;
     }   
+
+    .metricas__container {
+        flex-direction: column;
+        padding: 0 16px;
+        gap: 16px;
+    }
+
+    .metricas__container__informacoes {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .metricas__container__informacoes-numeros {
+        font-size: 48px;
+    }
+
+    .metricas__container__informacoes-subtitulo {
+        font-size: 16px;
+    }
+
+    .metricas__container__informacoes-conteudo {
+        font-size: 14px;
+        max-width: 100%;
+    }
 
 } 
