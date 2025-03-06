@@ -221,4 +221,30 @@ body {
         max-width: 100%;
     }
 
+    .vagas {
+        margin-top: 20px;
+        padding: 0 16px;
+    }
+
+    .vagas__informacoes-inicio {
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 12px;
+    }
+
+    .vagas__informacoes-subtitulo {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .vagas__informacoes-paragrafo {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .vagas__informacoes-imagem {
+        margin-top: 24px;
+        max-width: 100%;
+    }
+
 } 
