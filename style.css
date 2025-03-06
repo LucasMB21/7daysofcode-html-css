@@ -4,6 +4,7 @@
     --cor-cinza-botão: #667085;
     --cor-vermelha: #8E2424;
     --cor-preta-texto: #101828;
+    --cor-cinza-claro: #F3F4F6;
     --fonte-principal: "Inter";
 }
 
@@ -105,6 +106,7 @@ body {
     justify-content: center;
     padding: 0 112px;
     gap: 32px;
+    margin-top: 40px;
 }
 
 .metricas__container__informacoes {
@@ -130,6 +132,38 @@ body {
     color: var(--cor-cinza-botão);
     font-weight: 400;
     font-size: 16px;
+}
+
+.vagas {
+    margin-top: 80px;
+}
+
+.vagas__informacoes-inicio {
+    color: var(--cor-vermelha);
+    background-color: var(--cor-cinza-claro);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.vagas__informacoes-subtitulo {
+    color: var(--cor-preta-texto);
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.vagas__informacoes-paragrafo {
+    color: var(--cor-cinza-botão);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.vagas__informacoes-imagem {
+    width: auto;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
