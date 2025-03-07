@@ -13,7 +13,8 @@ Este projeto é parte do desafio #7DaysOfCode, onde desenvolvo uma interface web
 - **📌 Dia 1:** Implementação da **navbar**, contendo logo, links de navegação e botões de login/cadastro.  
 - **📌 Dia 2:** Criação da seção **"Sobre Nós"**, apresentando a empresa e sua missão.  
 - **📌 Dia 3:** Adição da seção de **estatísticas da empresa**, destacando números de projetos, equipe, downloads e avaliações.
-- **📌 Dia 4:** Adição da seção de **Vagas**, Criação da estrutura base para a seção de vagas, incluindo uma imagem ilustrativa. 
+- **📌 Dia 4:** Adição da seção de **Vagas**, Criação da estrutura base para a seção de vagas, incluindo uma imagem ilustrativa.
+- **📌 Dia 5:** Atualização da seção de **Vagas**, Implementação detalhada da seção de Vagas, listando cargo, tempo de trabalho e salário.
 
 ### 🖼 **Capturas de tela**
 
@@ -23,8 +24,7 @@ Este projeto é parte do desafio #7DaysOfCode, onde desenvolvo uma interface web
 
 <img src="https://github.com/user-attachments/assets/ee712411-e28f-4d73-bd64-ec41f3da1d4a" width="500">
 
-
-
+<img src="https://github.com/user-attachments/assets/16923fc2-f4cf-44f9-a6e5-dc93a27c6b19" width="500">
 
 
 
