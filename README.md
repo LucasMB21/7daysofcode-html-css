@@ -15,6 +15,7 @@ Este projeto é parte do desafio #7DaysOfCode, onde desenvolvo uma interface web
 - **📌 Dia 3:** Adição da seção de **estatísticas da empresa**, destacando números de projetos, equipe, downloads e avaliações.
 - **📌 Dia 4:** Adição da seção de **Vagas**, Criação da estrutura base para a seção de vagas, incluindo uma imagem ilustrativa.
 - **📌 Dia 5:** Atualização da seção de **Vagas**, Implementação detalhada da seção de Vagas, listando cargo, tempo de trabalho e salário.
+- **📌 Dia 6:** Adição da seção de **Depoimentos**, exibindo comentários de clientes sobre a empresa e seus serviços.
 
 ### 🖼 **Capturas de tela**
 
@@ -26,7 +27,7 @@ Este projeto é parte do desafio #7DaysOfCode, onde desenvolvo uma interface web
 
 <img src="https://github.com/user-attachments/assets/16923fc2-f4cf-44f9-a6e5-dc93a27c6b19" width="500">
 
-
+<img src="https://github.com/user-attachments/assets/cb6a4c4d-da28-4704-9b9e-7d7cdbb85d73" width="500">
 
 ## Tecnologias Utilizadas
 
