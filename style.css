@@ -135,10 +135,6 @@ body {
     font-size: 16px;
 }
 
-.vagas {
-
-}
-
 .vagas__informacoes-inicio {
     color: var(--cor-vermelha);
     background-color: var(--cor-cinza-claro);
@@ -208,6 +204,46 @@ body {
 .vagas__detalhes-span{
     color: var(--cor-cinza-botão);
     font-size: 16px;
+}
+
+.depoimentos {
+    background-color: var(--cor-cinza-claro);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 80%;
+    height: 404px;
+}
+
+.depoimentos__info {
+    color: var(--cor-vermelha);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.depoimentos__info-subtitulo {
+    color: var(--cor-preta-texto);
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.depoimentos__info-nome {
+    color: var(--cor-preta-texto);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.depoimentos__info-profissao {
+    color: var(--cor-cinza-botão);
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -292,17 +328,48 @@ body {
     }
 
     .vagas__detalhes {
-        flex-direction: column;
+        display: flex;
+        flex-direction: column; /* Empilha os itens */
+        align-items: center; /* Centraliza o conteúdo */
+        text-align: center; /* Garante que o texto fique alinhado */
         padding: 16px;
+        width: 100%; /* Ocupa toda a largura da tela */
+        box-sizing: border-box; /* Evita problemas com padding/margin */
     }
 
-    .vagas__detalhes-cargo {
-        margin-bottom: 8px;
-    }
-
+    .vagas__detalhes-cargo,
     .vagas__detalhes-salario {
-        padding-left: 0;
-        margin-top: 8px;
+        width: 100%; /* Garante que os textos não fiquem jogados para o lado */
+        padding: 10px 0; /* Dá um espaçamento melhor */
     }
 
-} 
+    .depoimentos {
+        background-color: var(--cor-cinza-claro); /* Mantém o fundo cinza */
+        padding: 20px; /* Espaço interno */
+        margin: 0 auto; /* Garante que fique centralizado */
+        width: 100%; /* Ocupa toda a largura da tela */
+        box-sizing: border-box; /* Evita que padding/width causem problemas */
+    }
+
+    .depoimentos__info {
+        display: block; /* Garante que o texto fique em uma linha separada */
+        margin-top: 10px; /* Desce o texto vermelho */
+    }
+
+    .depoimentos__info-subtitulo {
+        font-size: 24px; /* Reduz o tamanho do título */
+    }
+
+    .depoimentos__info-nome {
+        font-size: 14px; /* Ajuste para telas menores */
+    }
+
+    .depoimentos__info-profissao {
+        font-size: 12px; /* Mantém harmonia */
+    }
+
+    .depoimentos__info-imagem {
+        width: 80px; /* Ajusta o tamanho do avatar */
+        margin-top: 10px;
+    }
+}
